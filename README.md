@@ -118,7 +118,7 @@ The Streamlit application includes:
 ### Installation Guide        
 #### 1. Clone Repository:
    
-       git clone https://github.com/your-username/brent-oil-price-forecasting.git
+       https://github.com/jesh-rijal/Time-Series-Forecasting-Project-with-Web-Application.git
             
 #### 2. Move into Project Folder:
          
