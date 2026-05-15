@@ -21,7 +21,8 @@ Dataset Information
     • Rows: 9,011         
     • Columns: 2        
         o Date        
-        o Price          
+        o Price    
+        
 Time Period     
     • From: 20-May-1987        
     • To: 14-Nov-2022         
