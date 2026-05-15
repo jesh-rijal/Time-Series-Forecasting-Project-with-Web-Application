@@ -4,31 +4,31 @@ Project Overview
 
 This project focuses on forecasting Brent crude oil prices using multiple time-series forecasting models, including:
 
-ARIMA
-SARIMA
-Prophet
-Exponential Smoothing (ETS)
+ARIMA,
+SARIMA,
+Prophet,
+Exponential Smoothing (ETS),
 
 The main objective of this project is to analyze historical Brent oil price trends and build a robust forecasting system capable of handling:
 
-Long-term trends
-Structural changes
-Market volatility
-External global shocks
+Long-term trends,
+Structural changes,
+Market volatility,
+External global shocks,
 
 The final deployed forecasting model is the Prophet model, selected based on overall forecasting stability and cross-validation performance.
 
 Dataset Information
-Dataset Name: Brent Oil Prices
-Source: U.S. Energy Information Administration (EIA)
-Rows: 9,011
-Columns: 2
-Date
-Price
-Time Period
-From: 20-May-1987
-To: 14-Nov-2022
-Project Workflow
+Dataset Name: Brent Oil Prices,
+Source: U.S. Energy Information Administration (EIA),
+Rows: 9,011,
+Columns: 2,
+Date,
+Price,
+Time Period,
+From: 20-May-1987,
+To: 14-Nov-2022,
+Project Workflow,
 1. Data Cleaning
 
 The following preprocessing steps were performed:
