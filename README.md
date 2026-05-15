@@ -122,7 +122,7 @@ The Streamlit application includes:
             
 #### 2. Move into Project Folder:
          
-       cd brent-oil-price-forecasting
+       cd Time-Series-Forecasting-Project-with-Web-Application
       
 #### 3. Create Virtual Environment (Recommended):       
 ##### Windows
@@ -152,7 +152,8 @@ Example libraries used in this project:
     streamlit           
     joblib      
    
-### Run Streamlit Application       
+### Run Streamlit Application   
+#### In Terminal
 
     streamlit run app.py    
    
