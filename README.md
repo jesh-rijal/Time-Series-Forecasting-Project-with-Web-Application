@@ -18,10 +18,11 @@ The final deployed forecasting model is the Prophet model, selected based on ove
 Dataset Information      
     • Dataset Name: Brent Oil Prices         
     • Source: U.S. Energy Information Administration (EIA)        
-    • Rows: 9,011         
+    • Rows: 9,011    
+    
     • Columns: 2                   
-            o Date                
-            o Price             
+        o Date                
+        o Price             
         
 Time Period     
     • From: 20-May-1987        
