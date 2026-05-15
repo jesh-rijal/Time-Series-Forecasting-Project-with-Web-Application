@@ -104,15 +104,15 @@ The Streamlit application includes:
   • Downloadable forecast results         
   • Project Structure       
      
-project-folder/        
-│             
-├── BrentOilPrices.csv        
-├── prophet_model.pkl              
-├── app.py          
-├── requirements.txt      
-├── README.md       
-├── Documentation of Brent Oil Prices.pdf          
-└── brent_oil_prices.ipynb            
+    project-folder/        
+    │             
+    ├── BrentOilPrices.csv        
+    ├── prophet_model.pkl              
+    ├── app.py          
+    ├── requirements.txt      
+    ├── README.md       
+    ├── Documentation of Brent Oil Prices.pdf          
+    └── brent_oil_prices.ipynb            
 
 Installation Guide        
 1. Clone Repository:           
