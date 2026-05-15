@@ -153,35 +153,35 @@ The application allows users to:
     • View forecast confidence intervals       
     • Download forecast results as CSV      
 
-Example Forecast Output
-The forecast includes:
-    • Predicted oil price
-    • Lower confidence interval
-    • Upper confidence interval
+Example Forecast Output        
+The forecast includes:              
+    • Predicted oil price             
+    • Lower confidence interval           
+    • Upper confidence interval           
+  
+Cross-Validation       
+Time-series cross-validation was implemented using:        
+  TimeSeriesSplit(       
+      n_splits=5,           
+      test_size=180           
+  )            
+This ensures that the model is evaluated on unseen future data while preserving chronological order.            
 
-Cross-Validation
-Time-series cross-validation was implemented using:
-  TimeSeriesSplit(
-      n_splits=5,
-      test_size=180
-  )
-This ensures that the model is evaluated on unseen future data while preserving chronological order.
-
-Technologies Used
-    • Python
-    • Pandas
-    • NumPy
-    • Matplotlib
-    • Statsmodels
-    • Prophet
-    • Scikit-learn
-    • Streamlit
-    • Joblib
+Technologies Used                   
+    • Python               
+    • Pandas                  
+    • NumPy                   
+    • Matplotlib                     
+    • Statsmodels                     
+    • Prophet                 
+    • Scikit-learn                   
+    • Streamlit                
+    • Joblib                  
     
-Future Improvements
-Possible future improvements:
-    • Hyperparameter tuning
-    • Real-time oil price API integration
-    • Advanced deep learning models (LSTM/GRU)
-    • Interactive dashboard enhancements
-    • Multi-step forecasting optimization
+Future Improvements                  
+Possible future improvements:                
+    • Hyperparameter tuning             
+    • Real-time oil price API integration             
+    • Advanced deep learning models (LSTM/GRU)              
+    • Interactive dashboard enhancements             
+    • Multi-step forecasting optimization                    
