@@ -125,7 +125,7 @@ The Streamlit application includes:
        cd brent-oil-price-forecasting
       
 #### 3. Create Virtual Environment (Recommended):       
-##### Winddows
+##### Windows
        
        python -m venv venv        
        venv\Scripts\activate      
