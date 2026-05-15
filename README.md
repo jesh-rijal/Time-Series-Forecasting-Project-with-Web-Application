@@ -39,7 +39,6 @@ The following preprocessing steps were performed:
         • Set date column as DataFrame index          
 
 2. Feature Engineering
-
 Created time-based features such as:      
     • Day of week          
     • Day of month       
@@ -81,7 +80,8 @@ Models were evaluated using:
     • MAE         
     • MAPE         
 Time-based cross-validation was performed using:            
-TimeSeriesSplit            
+                            
+    TimeSeriesSplit            
 
 Final Model Selection              
 The Prophet model was selected as the final forecasting model because it:            
