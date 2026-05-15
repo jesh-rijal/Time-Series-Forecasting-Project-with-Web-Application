@@ -32,20 +32,20 @@ To: 14-Nov-2022,
 Project Workflow
 1. Data Cleaning
 
-  The following preprocessing steps were performed:
+   The following preprocessing steps were performed:
 
-Checked missing values,
-Checked duplicate records,
-Checked outliers using Z-score,
-Checked missing timestamps using pd.date_range(),
-Handled missing timestamps using forward filling,
-Converted date column into datetime format,
-Set date column as DataFrame index,
+   Checked missing values,
+   Checked duplicate records,
+   Checked outliers using Z-score,
+   Checked missing timestamps using pd.date_range(),
+   Handled missing timestamps using forward filling,
+   Converted date column into datetime format,
+   Set date column as DataFrame index,
 
 2. Feature Engineering
-Created time-based features such as:
-Day of week,
-Day of month
+   Created time-based features such as:
+   Day of week,
+   Day of month
 
 Performed:
 Resampling,
@@ -62,41 +62,37 @@ seasonal_order=(1,1,1,7)
 Prophet
 
 Included:
-
-Changepoint detection
-Seasonality tuning
-External regressors:
-Financial crisis
-COVID-19
-Russia–Ukraine war
-Oil supply shock
-ETS (Exponential Smoothing)
+Changepoint detection    
+Seasonality tuning     
+External regressors:     
+Financial crisis     
+COVID-19        
+Russia–Ukraine war     
+Oil supply shock      
+ETS (Exponential Smoothing)       
 
 Included:
-
-Trend handling
-Damped trend
-Log transformation
-Variance stabilization
-Model Evaluation
+Trend handling      
+Damped trend      
+Log transformation       
+Variance stabilization      
+Model Evaluation       
 
 Models were evaluated using:
-
-RMSE
-MAE
+RMSE,
+MAE,
 MAPE
 
 Time-based cross-validation was performed using:
-
-TimeSeriesSplit
-Final Model Selection
+TimeSeriesSplit      
+Final Model Selection      
 
 The Prophet model was selected as the final forecasting model because it:
 
-Handled structural changes effectively
-Adapted better to external market shocks
-Produced more stable forecasts
-Achieved stronger cross-validation performance
+Handled structural changes effectively        
+Adapted better to external market shocks         
+Produced more stable forecasts          
+Achieved stronger cross-validation performance     
 Model Deployment
 
 The project was deployed using:
