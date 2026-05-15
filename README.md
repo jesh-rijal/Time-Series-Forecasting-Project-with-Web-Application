@@ -2,10 +2,10 @@ Brent Oil Price Forecasting using Time Series Models
 
 Project Overview
 This project focuses on forecasting Brent crude oil prices using multiple time-series forecasting models, including:            
-    • ARIMA      
-    • SARIMA      
-    • Prophet        
-    • Exponential Smoothing (ETS)      
+• ARIMA      
+• SARIMA      
+• Prophet        
+• Exponential Smoothing (ETS)      
 
 The main objective of this project is to analyze historical Brent oil price trends and build a robust forecasting system capable of handling:         
     • Long-term trends      
@@ -30,13 +30,13 @@ Time Period
 Project Workflow
 1. Data Cleaning              
 The following preprocessing steps were performed:                   
-• Checked missing values            
-• Checked duplicate records          
-• Checked outliers using Z-score           
-• Checked missing timestamps using pd.date_range()       
-• Handled missing timestamps using forward filling       
-• Converted date column into datetime format        
-• Set date column as DataFrame index          
+    • Checked missing values            
+    • Checked duplicate records          
+    • Checked outliers using Z-score           
+    • Checked missing timestamps using pd.date_range()       
+    • Handled missing timestamps using forward filling       
+    • Converted date column into datetime format        
+    • Set date column as DataFrame index          
 
 2. Feature Engineering
 Created time-based features such as:      
