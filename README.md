@@ -29,14 +29,14 @@ Time Period
 
 Project Workflow
 1. Data Cleaning              
-The following preprocessing steps were performed:        
-    • Checked missing values            
-    • Checked duplicate records          
-    • Checked outliers using Z-score           
-    • Checked missing timestamps using pd.date_range()       
-    • Handled missing timestamps using forward filling       
-    • Converted date column into datetime format        
-    • Set date column as DataFrame index          
+The following preprocessing steps were performed:                   
+        • Checked missing values            
+        • Checked duplicate records          
+        • Checked outliers using Z-score           
+        • Checked missing timestamps using pd.date_range()       
+        • Handled missing timestamps using forward filling       
+        • Converted date column into datetime format        
+        • Set date column as DataFrame index          
 
 2. Feature Engineering
 
